@@ -1,0 +1,73 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "Aha Ok Lah"
+  subtitle    = "Cloud Native Stuffs"
+  copyright   = "© 2020"
+
+  cover       = "img/wall-grafitti.jpg"
+  description = "Cloud Native Stuffs"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+  linkedinName = "eueung"
+  mediumName = ""
+
+  logo = ""
+  orgName = "AhaOkLah"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = true
+
+  author = "SAI"
+  authorAvatar = "img/sai_profile_pic.png"
+  authorLocation = "Singapore"
+  authorWebsite = "https://ahaoklah.github.io"
+  authorDescription = "Cloud Native Engineer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Go"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 99
+
+[[menu.main]]
+  name = "Cloud"
+  url = "/tags/cloud/"
+  weight = 98
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
+
+
