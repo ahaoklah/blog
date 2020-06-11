@@ -27,7 +27,7 @@ taskcat
 ```
 
 * Run `pip install -r requirements.txt`
-```python
+```
 pip install -r requirements.txt
 ```
 
@@ -91,7 +91,8 @@ $ taskcat --version
 
 version 0.9.18
 0.9.18
-
+```
+```
 $ taskcat --help
  _            _             _
 | |_ __ _ ___| | _____ __ _| |_
