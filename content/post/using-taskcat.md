@@ -9,7 +9,8 @@ categories: ["CLOUD"]
 
 #### Let's play with TaskCat in python virtual environment
 
-- Create a working directory
+* Create a working directory
+
 ```
 cd $HOME
 cd python-demos
@@ -19,11 +20,13 @@ python3 -m venv .
 source ./bin/activate
 pip list
 ```
-- Create a file `requirements.txt` with the following content
+
+* Create a file `requirements.txt` with the following content
 ```
 taskcat
 ```
-- Run `pip install -r requirements.txt`
+
+* Run `pip install -r requirements.txt`
 ```python
 pip install -r requirements.txt
 
@@ -73,9 +76,11 @@ yattag                             1.13.2
 WARNING: You are using pip version 19.2.3, however version 20.1.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 ```
-- Verify `taskcat` is installed.
+
+* Verify `taskcat` is installed.
+
 ```
-(python-demo2) sais-MBP:python-demo2 sai$ taskcat --version
+$ taskcat --version
  _            _             _
 | |_ __ _ ___| | _____ __ _| |_
 | __/ _` / __| |/ / __/ _` | __|
@@ -85,7 +90,7 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
 version 0.9.18
 0.9.18
 
-(python-demo2) sais-MBP:python-demo2 sai$ taskcat --help
+$ taskcat --help
  _            _             _
 | |_ __ _ ___| | _____ __ _| |_
 | __/ _` / __| |/ / __/ _` | __|
