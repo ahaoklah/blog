@@ -29,8 +29,10 @@ taskcat
 * Run `pip install -r requirements.txt`
 ```python
 pip install -r requirements.txt
+```
 
-(python-demo2) sais-MBP:python-demo2 sai$ pip list
+```bash
+$ pip list
 Package                            Version
 ---------------------------------- ----------
 attrs                              19.3.0
@@ -89,7 +91,9 @@ $ taskcat --version
 
 version 0.9.18
 0.9.18
+```
 
+```
 $ taskcat --help
  _            _             _
 | |_ __ _ ___| | _____ __ _| |_
